@@ -1,27 +1,55 @@
-# React + TypeScript + Vite
+> Repositório Front-End desenvolvido em React. This is a challenge by Coodesh.
+ <br />
+ 
+ 
+ # DropMail 📪📩
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br />
 
-Currently, two official plugins are available:
+### Sobre:
+DropMail é aplicação que consume uma API de email temporário para que os usuários possam utilizar serviços sem expor seu email real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Como usuário é possível:
+- Gerar um endereço de email temporário;
+- Copiar o endereço de email gerado;
+- Visualizar a caixa de entrada deste email;
+- Receber notificações de novos emails.
 
-## Expanding the ESLint configuration
+Outras regras de negórcios:
+- É possível capturar a chegada de novos emails, a cada 15 segundos e aplicação verifica a caixa de mensagens.
+- Os dados de acesso da sessão e email estão sendo salvos no localStorage, para que a conta não seja perdida ao atualizar a página.
+- Caso o email tenha expirado, automaticamente é removido do localStorage.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Rodando localmente:
+1. Faça o clone da do repósitorio e acesse a pasta clonada.
+```shell
+git clone https://github.com/brenofigueiredoo/truckpag-front-end-challenge.git
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+cd truckpag-front-end-challenge
 ```
+2. Instale todas as dependências.
+```
+yarn install
+```
+3. Rode a aplicação.
+```
+yarn dev
+```
+Para acessar a aplicação utilize: [localhost:5173](localhost:5173)
+&nbsp;
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Ferramentas utilizadas 🛠 
+
+ <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"> <img align="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+  <img align="center" alt="vscode" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain-wordmark.svg"> 
+ <img align="center" alt="github" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+ <img align="center" alt="vscode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"> 
+
+&nbsp;
+
+
+## Contribuintes ✨
+
+Função   | Membro
+--------- | ------
+Developer | [Breno S. Figueiredo](https://www.linkedin.com/in/brenosfigueiredo/)
