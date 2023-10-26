@@ -4,8 +4,8 @@
  
  # DropMail 📪📩
 
- ***➡ Para acessar a aplicação no Vercel: [Clique aqui](https://truckpag-front-end-challenge.vercel.app/)***
-
+ * ***➡ Para acessar a aplicação no Vercel: [Clique aqui](https://truckpag-front-end-challenge.vercel.app/)***
+ * ***➡ Apresentação do Desafio: [Clique aqui](https://www.loom.com/share/673e0f5ae3f643608fb0f533e8f6183c)***
 
 ### Sobre:
 DropMail é aplicação que consume uma API de email temporário para que os usuários possam utilizar serviços sem expor seu email real.
