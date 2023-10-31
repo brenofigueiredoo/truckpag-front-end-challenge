@@ -17,7 +17,7 @@ Como usuário é possível:
 - Visualizar a caixa de entrada deste email;
 - Receber notificações de novos emails.
 
-Outras regras de negórcios:
+Outras funcionalidades:
 - É possível capturar a chegada de novos emails, a cada 15 segundos e aplicação verifica a caixa de mensagens.
 - Os dados de acesso da sessão e email estão sendo salvos no localStorage, para que a conta não seja perdida ao atualizar a página.
 - Caso o email tenha expirado, automaticamente é removido do localStorage.
