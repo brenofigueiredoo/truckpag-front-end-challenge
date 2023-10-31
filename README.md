@@ -7,7 +7,7 @@
  * ***➡ Para acessar a aplicação no Vercel: [Clique aqui](https://truckpag-front-end-challenge.vercel.app/)***
 
 ### Sobre:
-DropMail é aplicação que consume uma API de email temporário para que os usuários possam utilizar serviços sem expor seu email real.
+O DropMail é uma aplicação que utiliza uma API de email temporário, permitindo aos usuários desfrutarem de serviços sem a necessidade de divulgar seu endereço de email real.
 
 <br />
 
